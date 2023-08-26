@@ -4,11 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <title>FDelivery</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
+  <link
+    rel="shortcut icon"
+    href="./images/favicon-32x32.png"
+    type="image/png"
+  />
   <body>
-    <!--=============== Header ===============-->
+    <!-- Header -->
     <header class="header">
       <nav class="navbar">
         <div class="row d-flex container">
@@ -38,14 +51,13 @@
             <a class="btn signin">Sign In</a>
           </div>
 
-          <!-- Hamburger -->
           <div class="hamburger d-flex">
             <i class="bx bx-menu"></i>
           </div>
         </div>
       </nav>
 
-      <!--=============== Home ===============-->
+      <!-- Home  -->
       <div class="home">
         <div class="row container">
           <div class="col">
@@ -72,7 +84,6 @@
         </div>
       </div>
 
-      <!--=============== SignIn Form ===============-->
       <div class="wrapper">
         <form action="" class="form">
           <h2>SIGN IN</h2>
@@ -102,7 +113,6 @@
       </div>
     </header>
 
-    <!--=============== Services ===============-->
     <section class="section services" id="services">
       <div class="row container">
         <div class="col">
@@ -145,7 +155,7 @@
       </div>
     </section>
 
-    <!--=============== About ===============-->
+    <!-- About -->
     <section class="section about" id="about">
       <div class="row container">
         <div class="col">
@@ -183,7 +193,7 @@
       </div>
     </section>
 
-    <!--=============== Recipes ===============-->
+    <!-- item -->
     <section class="section recipes" id="recipes">
       <h2>Try Our Special Recipes</h2>
       <div class="row container">
@@ -197,25 +207,7 @@
         </div>
         <div class="products">
           <div class="swiper mySwiper">
-            <div class="swiper-wrapper" id="products-wrapper">
-              <!-- <div class="swiper-slide">
-                <div class="card">
-                  <div class="image"><img src="./images/meat-2.svg" alt=""></div>
-                  <div class="rating">
-                  <span><i class="bx bxs-star"></i></span>
-                  <span><i class="bx bxs-star"></i></span>
-                  <span><i class="bx bxs-star"></i></span>
-                  <span><i class="bx bxs-star"></i></span>
-                  <span><i class="bx bxs-star"></i></span>
-                  </div>
-                  <h4>Crispy Fried Chicken</h4>
-                  <div class="price">
-                    <span>Price</span><span class="color">$13.00</span>
-                  </div>
-                  <div class="button">Add To Cart+</div>
-                </div>
-              </div> -->
-            </div>
+            <div class="swiper-wrapper" id="products-wrapper"></div>
           </div>
           <div class="pagination">
             <div class="custom-pagination"></div>
@@ -223,7 +215,7 @@
         </div>
       </div>
     </section>
-    <!--=============== Testimonials ===============-->
+
     <section class="section testimonials" id="testimonials">
       <div class="row container">
         <div class="col">
@@ -233,7 +225,7 @@
                 <img src="./images/profile-1.jpg" alt="" />
               </div>
               <div>
-                <h4>Rosele Desoza</h4>
+                <h4>Mohammad</h4>
                 <span>Marketing Coordinator</span>
               </div>
             </div>
@@ -244,7 +236,7 @@
                 <img src="./images/profile-2.jpg" alt="" />
               </div>
               <div>
-                <h4>Marvin McKinney</h4>
+                <h4>Farooque</h4>
                 <span>Web Designer</span>
               </div>
             </div>
@@ -255,7 +247,7 @@
                 <img src="./images/profile-3.jpg" alt="" />
               </div>
               <div>
-                <h4>Guy Hawkins</h4>
+                <h4>Ali</h4>
                 <span>President of Sales</span>
               </div>
             </div>
@@ -266,7 +258,7 @@
                 <img src="./images/profile-4.jpg" alt="" />
               </div>
               <div>
-                <h4>Kathryn Murphy</h4>
+                <h4>Ahmed</h4>
                 <span>Marketing Coordinator</span>
               </div>
             </div>
@@ -281,7 +273,7 @@
             <div class="testimonial active" data-id="rosele">
               <div class="d-flex">
                 <div>
-                  <h4>Rosele Desoza</h4>
+                  <h4>Farooque Ali</h4>
                   <span>Marketing Coordinator</span>
                 </div>
 
@@ -306,7 +298,7 @@
         </div>
       </div>
     </section>
-    <!--=============== App ===============-->
+
     <section class="section app">
       <div class="row container">
         <div class="col">
@@ -353,23 +345,15 @@
           <div>
             <h4>Company</h4>
             <a href="">About Us</a>
-            <a href="">Blog</a>
-            <a href="">All Products</a>
-            <a href="">Locations Map</a>
           </div>
           <div>
             <h4>Services</h4>
             <a href="">Order tracking</a>
-            <a href="">Wish List</a>
-            <a href="">My account</a>
-            <a href="">Terms & Conditions</a>
           </div>
           <div>
             <h4>Support</h4>
             <a href="">FAQ</a>
-            <a href="">Policy </a>
-            <a href="">Business</a>
-            <a href="">Support Carrer</a>
+            <
           </div>
           <div>
             <h4>Contact</h4>
@@ -383,16 +367,15 @@
     <div class="footer-bottom">
       <div class="row container d-flex">
         <p>Copyright © 2021 Pixency</p>
-        <p>Created by Udhay Kumar</p>
+        <p class="owner" style="color: rgb(0, 0, 0)">
+          Created by
+          <a
+            href="https://www.linkedin.com/in/farooque-ali-9547b2272/"
+            style="color: rgb(19, 70, 89)"
+            ><span>Farooque Ali</span></a
+          >
+        </p>
       </div>
     </div>
-
-    <!--=============== Swiper JS ===============-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!--=============== Custom JS ===============-->
-    <script src="./js/testimonial.js"></script>
-    <script src="./js/products.js"></script>
-    <script src="./js/main.js"></script>
   </body>
 </html>

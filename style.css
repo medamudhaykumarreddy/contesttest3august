@@ -1,20 +1,19 @@
-/* ========== Google Fonts =========== */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
   --primary-color: #f94a3d;
-  --yellow-color: #ffcf03;
-  --black-color: #212244;
-  --default-color: #69697b;
-  --deep-yellow: #ff9401;
-  --yellow-color-1: #ffe507;
-  --red-color-1: #e83b2e;
-  --red-color-2: #ee3e32;
+  --yellow-color: #e5cf6b;
+  --black-color: #1c1c31;
+  --default-color: #aeaeb3;
+  --deep-yellow: #b0884f;
+  --yellow-color-1: #c9bc4c;
+  --red-color-1: #b92d23;
+  --red-color-2: #e66258;
   --light-red-color: #fdecec;
-  --grey-color: #eaeaea;
-  --grey-color-1: #f8f8f8;
+  --grey-color: #bfbebe;
+  --grey-color-1: #4c4b4b;
   --white-color: #fff;
-  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 5px 15px rgba(20, 18, 18, 0.1);
 }
 
 *,
@@ -71,7 +70,7 @@ img {
   height: auto;
 }
 
-/* ========== Custom Classes =========== */
+/* custom class */
 .container {
   max-width: 120rem;
   padding: 0 3rem;
@@ -88,10 +87,14 @@ img {
   align-items: center;
 }
 
-/* ========== Header =========== */
+/* header */
 .header {
   min-height: 100vh;
-  background: linear-gradient(45deg, rgba(249, 74, 61, 0.1) 60%, rgba(255, 229, 7, 0.1));
+  background: linear-gradient(
+    45deg,
+    rgba(249, 74, 61, 0.1) 60%,
+    rgba(255, 229, 7, 0.1)
+  );
 }
 
 .navbar {
@@ -112,7 +115,7 @@ img {
 }
 .navbar .col form {
   background-color: var(--white-color);
-  border-radius: 0.5rem;
+  border-radius: 15px;
   box-shadow: var(--box-shadow);
   border: 1px solid rgba(105, 105, 123, 0.1);
   padding: 0.5rem 0;
@@ -132,7 +135,7 @@ img {
   justify-content: center;
   padding: 0.5rem;
   background-color: transparent;
-  border-left: 1px solid rgba(105, 105, 123, 0.1);
+  border-left: 1px solid rgba(114, 114, 122, 0.1);
   font-size: 1.7rem;
   color: var(--default-color);
   position: absolute;
@@ -245,7 +248,7 @@ img {
     width: 15rem;
   }
 }
-/* ========== Home =========== */
+/* home */
 .header .home {
   height: calc(100vh - 8.5rem);
 }
@@ -347,7 +350,7 @@ img {
     text-align: center;
   }
 }
-/* ========== SignIn Form =========== */
+
 .header .wrapper {
   position: fixed;
   top: 0;
@@ -441,7 +444,7 @@ img {
   cursor: pointer;
 }
 
-/* ========== Services =========== */
+/* service */
 .services {
   padding: 10rem 0 10rem;
 }
@@ -491,7 +494,7 @@ img {
     font-size: 3.5rem;
   }
 }
-/* ========== about =========== */
+/* about */
 .about {
   background-color: var(--grey-color-1);
   padding: 10rem 0 10rem;
@@ -563,7 +566,7 @@ img {
     gap: 3rem 0;
   }
 }
-/* ========== Recipes =========== */
+
 .recipes {
   padding: 10rem 0 10rem;
 }
@@ -667,7 +670,7 @@ img {
     margin-bottom: 2rem;
   }
 }
-/* ========== Testimonials =========== */
+
 .testimonials {
   padding: 10rem 0 10rem;
   background-color: var(--grey-color-1);
@@ -792,7 +795,7 @@ img {
     font-size: 2.5rem;
   }
 }
-/* ========== App =========== */
+
 .app {
   padding: 10rem 0 20rem;
 }
@@ -882,9 +885,13 @@ img {
     font-size: 2.5rem;
   }
 }
-/* ========== Footer =========== */
+/* Footer */
 .footer {
-  background: linear-gradient(145deg, rgba(249, 74, 61, 0.1) 60%, rgba(255, 229, 7, 0.1));
+  background: linear-gradient(
+    145deg,
+    rgba(249, 74, 61, 0.1) 60%,
+    rgba(255, 229, 7, 0.1)
+  );
   padding: 10rem 3rem 10rem;
 }
 .footer .row {
@@ -961,4 +968,7 @@ img {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+.owner {
+  font-weight: bolder;
+}
+/* Thats all from Farooque */
