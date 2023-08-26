@@ -1,3 +1,5 @@
+/* ========== Google Fonts =========== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
   --primary-color: #f94a3d;
@@ -875,7 +877,7 @@ img {
     height: 4rem;
   }
 }
-(max-width: 567px) {
+@media (max-width: 567px) {
   .app .row .col:last-child h2 {
     font-size: 2.5rem;
   }
@@ -958,3 +960,5 @@ img {
     gap: 3rem 0;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
